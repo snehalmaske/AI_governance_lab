@@ -1,7 +1,7 @@
 import sys, re, requests, pathlib
 from bs4 import BeautifulSoup
 
-SECRET = "SESSION_TOKEN=tok_live_THIS_IS_FAKE"
+SECRET = "abc123xyz"
 
 def load_page(path_or_url: str) -> str:
     p = pathlib.Path(path_or_url)
